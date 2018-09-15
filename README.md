@@ -11,6 +11,6 @@ Search a keyword (a string) in single o multiple files (one level deep)
 
 ### Next step
 
-[-] More level deep
-[-] Keep a text file as a keyword
-[-] Packanging for NPM and upload
+* More level deep
+* Keep a text file as a keyword
+* Packanging for NPM and upload
