@@ -1,15 +1,15 @@
 const fs = require("fs");
-const path = require("path");
+const single = require('./single');
+const multi = require('./multi');
+
 const key = process.argv[2];
-const file = process.argv[3];
+const path = process.argv[3];
 
-function searchSingle(file, key) {
-  fs.readFile(file, "utf-8", (err, content) => {
-    if (err) throw console.error(`ERROR Can't open ${file}`);
-    if (content.includes(key)) {
-      console.log(`${file}`);
-    }
-  });
+
+
+if (fs.statSync(path).isDirectory()) {
+  const files = multi.readDir(path);
+  multi.search(files, key);
+} else {
+  single.search(path, key);
 }
-
-searchSingle(file, key);
