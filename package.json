@@ -1,0 +1,16 @@
+{
+  "name": "filesearch",
+  "version": "1.0.0",
+  "description": "a bot that search in a single file and/or in multiple file",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "search",
+    "file",
+    "multiple"
+  ],
+  "author": "Paola Guarasci",
+  "license": "MIT"
+}
