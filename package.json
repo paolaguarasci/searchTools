@@ -1,10 +1,10 @@
 {
   "name": "filesearch",
   "version": "1.0.0",
-  "description": "a bot that search in a single file and/or in multiple file",
+  "description": "a script that search in a single file and/or in multiple files",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": ""
   },
   "keywords": [
     "search",
